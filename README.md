@@ -34,11 +34,18 @@
 ## 📷 Screenshot Tampilan
 Berikut adalah beberapa tampilan dari website **YGGDRASIL**:
 
-### Halaman Utama
-![Halaman Utama](screenshots/homepage.png)
-
 ### Halaman Login
-![Halaman Login](screenshots/login.png)
+<img src="https://raw.githubusercontent.com/tirtadhi/YGGDRASIL/main/loading screen.png"
+     alt="Loading Screen"
+     style="float: left; margin-right: 10px;"
+     width="400" />
+
+### Halaman Utama
+<img src="https://raw.githubusercontent.com/tirtadhi/YGGDRASIL/main/Halaman Utama.png"
+     alt="Halaman Utama"
+     style="float: left; margin-right: 10px;"
+     width="400" />
+
 
 ## 📝 Catatan
 - Pastikan koneksi internet aktif untuk memuat Bootstrap dan FontAwesome dari CDN.
@@ -46,10 +53,8 @@ Berikut adalah beberapa tampilan dari website **YGGDRASIL**:
 - Pastikan file konfigurasi database telah diatur dengan benar.
 
 ## 📌 Kontributor
-- **Kandhi Nala Dri Asmara**
-- **Rasel Rubianto**
-- **Tirta Adhi Samsara**
+- [Kandhi Nala Dri Asmara](https://www.linkedin.com/in/rasel-rubianto-738642232/)
+- [Rasel Rubianto](https://www.linkedin.com/in/rasel-rubianto-738642232/)
+- [Tirta Adhi Samsara](https://www.linkedin.com/in/tirtaadhisamsara/)
 
-## 📜 Lisensi
-Proyek ini menggunakan lisensi **MIT**.
 
