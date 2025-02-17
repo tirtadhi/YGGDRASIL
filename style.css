@@ -1,0 +1,129 @@
+/* Loading Screen */
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* Pastikan berada di atas konten */
+  opacity: 1;
+  transition: opacity 1s ease-in-out; /* Efek transisi saat fade out */
+}
+
+/* Logo container */
+.logo-container {
+  text-align: center;
+}
+
+/* Logo yang lebih besar dengan animasi fade-in */
+.logo {
+  width: 450px; /* Ukuran logo */
+  height: 252px;
+  opacity: 0; /* Mulai dengan opacity 0 */
+  animation: fadeIn 2s ease-in-out forwards; /* Logo muncul dengan animasi fade-in */
+}
+
+/* Animasi untuk fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Fade-out efek setelah loading */
+#loading-screen.fade-out {
+  opacity: 0;
+  pointer-events: none; /* Tidak bisa diklik setelah menghilang */
+  transition: opacity 1s ease-in-out;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('/assets/bg.png'); /* Ganti dengan path gambar baru Anda */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(246, 241, 239, 0.7); /* Background transparan */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 768px) {
+  .hero-section {
+    background-position: top;
+    height: 60vh;
+  }
+  .hero-content {
+    padding: 15px;
+  }
+}
+
+/* Button styling */
+.gooey-button {
+  background: linear-gradient(45deg, #000000, #514f4f);
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: transform 0.2s;
+}
+
+.gooey-button:hover {
+  transform: scale(1.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Mencegah scroll horizontal */
+}
+
+.hero-section {
+  position: relative;
+  background-image: url('/assets/bg.png'); /* Ganti dengan path gambar baru Anda */
+  background-size: cover; /* Mengisi seluruh area tanpa mengulang */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Sesuaikan tinggi dengan layar penuh */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  background-color: #f6f1efb6; /* Tambahkan latar belakang transparan jika diperlukan */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 768px) {
+  .hero-section {
+    background-position: top; /* Menempatkan gambar pada posisi atas untuk fokus */
+    height: 60vh; /* Tinggi yang lebih kecil untuk perangkat seluler */
+  }
+  .hero-content {
+    padding: 15px;
+  }
+}
