@@ -1,0 +1,63 @@
+/* Layout cards */
+.layout-card-custom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Menambahkan margin untuk card */
+/* Menambahkan border-radius dan shadow pada card */
+.card {
+  border-radius: 10px; /* Memberikan sudut melengkung pada card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus pada card */
+}
+
+/* Membuat gambar cover responsif dan rata tengah */
+.card-img-top {
+  object-fit: cover;
+  height: 250px;
+  border-radius: 10px; /* Sudut melengkung pada gambar */
+}
+
+/* Mengatur margin dan padding untuk elemen-elemen dalam card */
+.card-body {
+  padding: 15px;
+}
+
+/* Tombol Batal dan Pinjam */
+.card-body .btn {
+  padding: 10px 20px; /* Memberikan padding agar tombol lebih besar */
+  font-size: 16px; /* Ukuran font yang lebih besar agar lebih mudah dibaca */
+  text-align: center; /* Mengatur agar teks di dalam tombol lebih teratur */
+  width: 48%; /* Menjaga lebar tombol agar tidak terlalu lebar */
+}
+
+body {
+  background-image: url('/assets/bg-dashboard.png'); /* Ganti dengan path gambar Anda */
+  background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area */
+  background-position: center center; /* Posisi gambar di tengah layar */
+  background-attachment: fixed; /* Membuat gambar tetap saat menggulir halaman (efek paralaks) */
+  color: #fff; /* Menyesuaikan warna teks agar kontras dengan background */
+}
+
+/* Memberikan background dan jarak pada filter container */
+.filter-container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.745
+  ); /* Latar belakang semi-transparan */
+  border-radius: 5px; /* Sudut melengkung */
+}
+
+/* Menggunakan gap pada Flexbox untuk jarak antar tombol */
+.filter-container .d-flex {
+  gap: 10px; /* Memberikan jarak antar tombol */
+}
+
+/* Menambahkan margin untuk tombol agar tidak menempel */
+.filter-container .btn {
+  margin: 5px; /* Jarak antar tombol */
+}

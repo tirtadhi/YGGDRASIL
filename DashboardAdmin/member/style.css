@@ -1,0 +1,27 @@
+body {
+  background-image: url('/assets/bg-dashboard.png'); /* Ganti dengan path gambar Anda */
+  background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area */
+  background-position: center center; /* Posisi gambar di tengah layar */
+  background-attachment: fixed; /* Membuat gambar tetap saat menggulir halaman (efek paralaks) */
+  color: #fff; /* Menyesuaikan warna teks agar kontras dengan background */
+}
+.navbar {
+  padding: 1rem;
+}
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+.table td i {
+  cursor: pointer;
+}
+.search-input {
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+.search-button {
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+.container-main {
+  margin-top: 80px;
+} /* Adjusts the content below navbar */

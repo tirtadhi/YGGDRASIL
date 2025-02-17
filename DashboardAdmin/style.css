@@ -1,0 +1,66 @@
+/* Gradasi latar belakang yang konsisten dengan dashboard member */
+body {
+  background: url('/assets/bg-dashboard.png');
+  min-height: 100vh; /* Menjamin body memenuhi layar */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar tetap di atas */
+.navbar {
+  z-index: 1050;
+}
+
+/* Background putih transparan */
+.dashboard-wrapper {
+  background-color: rgba(255, 255, 255, 0.8); /* Putih dengan transparansi */
+  border-radius: 8px; /* Membuat sudut melengkung */
+  padding: 20px; /* Memberikan jarak dalam */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+/* Membuat gambar lebih responsif */
+.cardImg img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Pengaturan layout kartu */
+.cardImg {
+  width: 100%;
+  max-width: 500px; /* Maksimal lebar gambar */
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardImg:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  flex: 1; /* Mengisi sisa ruang setelah navbar */
+  padding-top: 80px; /* Memberi ruang di bawah navbar */
+}
+
+/* Kartu yang lebih rapi dan responsif */
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Pengaturan dropdown */
+.dropdown-menu {
+  margin-left: -7rem;
+}
+
+/* Mengatur warna teks agar tidak berubah saat tautan diklik atau fokus */
+.dropdown-item:focus,
+.dropdown-item:hover,
+.dropdown-item:active {
+  color: inherit; /* Menjaga warna teks tetap seperti semula */
+  background-color: transparent; /* Menghilangkan warna latar belakang saat hover/focus/active */
+}

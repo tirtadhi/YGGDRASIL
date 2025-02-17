@@ -1,0 +1,22 @@
+body {
+  background-image: url('/assets/bg-dashboard.png'); /* Ganti dengan path gambar Anda */
+  background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area */
+  background-position: center center; /* Posisi gambar di tengah layar */
+  background-attachment: fixed; /* Membuat gambar tetap saat menggulir halaman (efek paralaks) */
+  color: #fff; /* Menyesuaikan warna teks agar kontras dengan background */
+}
+.layout-card-custom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.navbar {
+  padding: 1rem;
+}
+.card {
+  margin-bottom: 2rem;
+}
+.card-body a {
+  margin: 0.5rem 0;
+}
