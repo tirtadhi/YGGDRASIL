@@ -53,7 +53,7 @@ Berikut adalah beberapa tampilan dari website **YGGDRASIL**:
 - Pastikan file konfigurasi database telah diatur dengan benar.
 
 ## 📌 Kontributor
-- [Kandhi Nala Dri Asmara](https://www.linkedin.com/in/rasel-rubianto-738642232/)
+- [Kandhi Nala Dri Asmara](https://www.linkedin.com/in/kandhi-nala-dri-asmara/)
 - [Rasel Rubianto](https://www.linkedin.com/in/rasel-rubianto-738642232/)
 - [Tirta Adhi Samsara](https://www.linkedin.com/in/tirtaadhisamsara/)
 
